@@ -1,43 +1,47 @@
 # Home Base for Fire TV
 
-A cleaner Fire TV home screen with live scores for your teams, a customizable app dock and shortcuts.
-Setup happens on the Fire TV itself. No computer needed.
+A cleaner Fire TV home screen with live scores for your teams, your favorite apps in a dock, and quick shortcuts.
 
-## Downloader code: **8188054**
+## What you need
 
-Type **8188054** into the Downloader app. Or type the full link:
+- A Fire TV stick or Fire TV that runs Fire OS. Newer Vega OS devices can't install it.
+- A **Windows computer on the same Wi-Fi**, used once for about 2 minutes. Fire TV only lets a computer switch on the Home button part.
 
-```
-https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/HomeBase.apk
-```
+## Downloads
 
-Both always point to the newest version.
+| | |
+|---|---|
+| **Downloader code** (on the TV) | **8188054** |
+| **[Setup-Fire-TV.bat](https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/Setup-Fire-TV.bat)** | One click: installs Home Base, links the Home button, turns off Amazon ads & bloat |
+| **[Undo-Fire-TV.bat](https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/Undo-Fire-TV.bat)** | One click: puts the TV completely back to normal |
 
-## Install on a Fire TV Stick (about 3 minutes)
+## Set up (step by step)
 
-1. Install **Downloader** (by AFTVnews) from the Fire TV app store.
-2. Turn on Developer Options if you don't see it: **Settings > My Fire TV > About**, then press OK on the device name 7 times.
-3. In **Settings > My Fire TV > Developer Options**:
-   - **Install unknown apps > Downloader**: ON
-   - **ADB debugging**: ON
-4. Open Downloader, type **8188054**, press **Go**, then **Install**. Choose **Open** when it finishes.
-5. Home Base opens its setup screen. Press **Start setup**. When the TV asks *"Allow USB debugging?"*, tick **Always allow** and choose **OK**. The rest happens by itself:
-   - the Home button now opens Home Base
-   - Amazon ads, bloat and tracking are turned off, and menus are sped up (untick that box before Start if you don't want this)
-6. Press **Back** and pick your teams: League > (first letter) > Team. You can follow up to 4.
+**On the TV**
 
-## Changing teams later
+1. Turn on Developer Options if you don't see it: **Settings > My Fire TV > About**, highlight the TV's name and press **OK 7 times**.
+2. **Settings > My Fire TV > Developer Options > ADB debugging > ON.**
+3. *Optional, to install from the TV:* get **Downloader** from the app store, turn on **Developer Options > Install unknown apps > Downloader**, open Downloader, type **8188054**, choose **Go** and then **Install**. Home Base opens with these same steps on screen. (The computer tool installs it anyway, so you can skip this.)
 
-Highlight a team card and hold **OK** (or press the Menu button) to change the team, move it left or right, remove it, or choose its watch app.
-The dashed **Add team** card adds another one.
+**On the Windows computer**
+
+4. Download **[Setup-Fire-TV.bat](https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/Setup-Fire-TV.bat)**. If the browser warns about the file, choose **Keep**.
+5. Double-click it. If Windows shows *"Windows protected your PC"*, click **More info > Run anyway**.
+6. It finds the TV by itself. If you have more than one TV, it asks which one: the number is on Home Base's setup screen, or under **Settings > My Fire TV > About > Network**.
+
+**Back on the TV**
+
+7. When the TV asks **"Allow USB debugging?"**, tick **Always allow from this computer** and choose **OK**.
+8. Wait for **ALL DONE** on the computer. Home Base opens on the TV and the Home button now goes to it.
+9. Pick your teams: **League > (first letter) > Team**, up to 4.
+
+## Using it
+
+- **Team cards:** press OK to watch. Hold OK (or press the Menu button) to change, move or remove a team, or to pick its watch app.
+- **Remote Buttons** (bottom of the screen): choose what the remote's app buttons do, like Prime Video or Netflix. By default they work normally.
+- **Shortcuts** (scroll down): settings, all apps, screen dimmer, and **Setup & Undo**.
 
 ## Undo everything
 
-**Home Base > Shortcuts > Setup & Undo > Undo everything.**
-This turns the Amazon apps back on, resets menu speed, unlinks the Home button, turns ADB debugging back off and uninstalls Home Base. The Fire TV goes back to normal.
-ADB debugging has to still be on for the undo to work.
-
-## Notes
-
-- Works on Fire TV devices running Fire OS (Android-based). It won't work on the newer Vega OS sticks.
-- To update, install a newer version the same way. Your teams and layout are kept.
+Double-click **[Undo-Fire-TV.bat](https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/Undo-Fire-TV.bat)** on the computer. It turns Amazon's apps back on, resets menu speed, unlinks the Home button, uninstalls Home Base and turns ADB debugging back off.
+(No computer? On the TV, **Shortcuts > Setup & Undo > Undo everything** uninstalls Home Base, but it can't turn Amazon's apps back on.)
