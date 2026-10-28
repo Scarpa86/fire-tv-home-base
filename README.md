@@ -41,6 +41,11 @@ A cleaner Fire TV home screen with live scores for your teams, your favorite app
 - **Remote Buttons** (bottom of the screen): choose what the remote's app buttons do, like Prime Video or Netflix. By default they work normally.
 - **Shortcuts** (scroll down): settings, all apps, screen dimmer, and **Setup & Undo**.
 
+## Updates
+
+Home Base checks for new versions every few hours. When one is out, a green **Update to x.x** button appears at the bottom of the screen. Press it and choose **Update**. It replaces the installed copy and keeps your teams, layout and Home button setup.
+The first time, the TV asks you to allow Home Base to install updates: switch it **ON**, press **Back**, then press Update again.
+
 ## Undo everything
 
 Double-click **[Undo-Fire-TV.bat](https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/Undo-Fire-TV.bat)** on the computer. It turns Amazon's apps back on, resets menu speed, unlinks the Home button, uninstalls Home Base and turns ADB debugging back off.
