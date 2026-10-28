@@ -39,7 +39,14 @@ A cleaner Fire TV home screen with live scores for your teams, your favorite app
 
 - **Team cards:** press OK to watch. Hold OK (or press the Menu button) to change, move or remove a team, or to pick its watch app.
 - **Remote Buttons** (bottom of the screen): choose what the remote's app buttons do, like Prime Video or Netflix. By default they work normally.
-- **Shortcuts** (scroll down): settings, all apps, screen dimmer, and **Setup & Undo**.
+- **Shortcuts** (scroll down; press Down again for **More Shortcuts**): settings, all apps, screen dimmer, Find Apps, Phone Remote, Ad Blocker, and **Setup & Undo**.
+- **Rearrange:** hold OK (or press Menu) on any shortcut or dock app, choose **Move**, then use the arrows to carry it anywhere, onto the other shortcut page too. Press **OK** to drop it.
+- **Find Apps** (bottom of the screen): type an app's name to search the Appstore and download it.
+
+## Ad Blocker
+
+The setup tool turns it on: the TV uses AdGuard's ad-blocking DNS, so ads and trackers inside apps and websites don't load. Switch it on or off any time at **More Shortcuts > Ad Blocker**. If an app or a sign-in page won't load, turn it off.
+It can't block ads inside YouTube, Prime Video, Hulu and similar video, because those come from the same servers as the shows. (Run Setup-Fire-TV.bat once with 2.9 or newer to enable the switch.)
 
 ## Phone Remote (see and control the TV from your phone)
 
@@ -57,5 +64,5 @@ The first time, the TV asks you to allow Home Base to install updates: switch it
 
 ## Undo everything
 
-Double-click **[Undo-Fire-TV.bat](https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/Undo-Fire-TV.bat)** on the computer. It turns Amazon's apps back on, resets menu speed, unlinks the Home button, uninstalls Home Base and turns ADB debugging back off.
+Double-click **[Undo-Fire-TV.bat](https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/Undo-Fire-TV.bat)** on the computer. It turns Amazon's apps back on, resets menu speed, turns the ad blocker off, unlinks the Home button, uninstalls Home Base and turns ADB debugging back off.
 (No computer? On the TV, **Shortcuts > Setup & Undo > Undo everything** uninstalls Home Base, but it can't turn Amazon's apps back on.)
