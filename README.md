@@ -41,7 +41,7 @@ A cleaner Fire TV home screen with live scores for your teams, your favorite app
 - **Remote Buttons** (bottom of the screen): choose what the remote's app buttons do, like Prime Video or Netflix. By default they work normally.
 - **Shortcuts** (scroll down; press Down again for **More Shortcuts**): settings, all apps, screen dimmer, Find Apps, Phone Remote, Ad Blocker, and **Setup & Undo**.
 - **Rearrange:** hold OK (or press Menu) on any shortcut or dock app, choose **Move**, then use the arrows to carry it anywhere, onto the other shortcut page too. Press **OK** to drop it.
-- **Find Apps** (bottom of the screen): type an app's name to search the Appstore and download it.
+- **Find Apps** (bottom of the screen): opens the Appstore to search for and download apps.
 
 ## Ad Blocker
 
