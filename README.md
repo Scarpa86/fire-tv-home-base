@@ -3,13 +3,15 @@
 A cleaner Fire TV home screen with live scores for your teams, a customizable app dock and shortcuts.
 Setup happens on the Fire TV itself. No computer needed.
 
-## Download link (type this into Downloader)
+## Downloader code: **8188054**
+
+Type **8188054** into the Downloader app. Or type the full link:
 
 ```
 https://github.com/Scarpa86/fire-tv-home-base/releases/latest/download/HomeBase.apk
 ```
 
-This link always points to the newest version.
+Both always point to the newest version.
 
 ## Install on a Fire TV Stick (about 3 minutes)
 
@@ -18,7 +20,7 @@ This link always points to the newest version.
 3. In **Settings > My Fire TV > Developer Options**:
    - **Install unknown apps > Downloader**: ON
    - **ADB debugging**: ON
-4. Open Downloader, type the link above, press **Go**, then **Install**. Choose **Open** when it finishes.
+4. Open Downloader, type **8188054**, press **Go**, then **Install**. Choose **Open** when it finishes.
 5. Home Base opens its setup screen. Press **Start setup**. When the TV asks *"Allow USB debugging?"*, tick **Always allow** and choose **OK**. The rest happens by itself:
    - the Home button now opens Home Base
    - Amazon ads, bloat and tracking are turned off, and menus are sped up (untick that box before Start if you don't want this)
