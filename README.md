@@ -42,6 +42,10 @@ A cleaner Fire TV home screen with live scores for your teams, your favorite app
 - **Shortcuts** (scroll down; press Down again for **More Shortcuts**): settings, all apps, screen dimmer, Find Apps, Phone Remote, Ad Blocker, and **Setup & Undo**.
 - **Rearrange:** hold OK (or press Menu) on any shortcut or dock app, choose **Move**, then use the arrows to carry it anywhere, onto the other shortcut page too. Press **OK** to drop it.
 - **Find Apps** (bottom of the screen): opens the Appstore to search for and download apps.
+- **Help** (bottom of the screen): something not working? Describe it and press Send. It goes straight to the developer, with your TV's model and Home Base version so the problem can be fixed.
+- **Check for Updates** (bottom of the screen): turns green when a new version is out.
+
+Home Base checks in once a day with a random ID for the TV, its model and the Fire OS / Home Base versions, so the developer can see how many TVs use it. No names, accounts or viewing history are sent.
 
 ## Ad Blocker
 
