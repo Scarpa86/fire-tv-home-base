@@ -41,6 +41,15 @@ A cleaner Fire TV home screen with live scores for your teams, your favorite app
 - **Remote Buttons** (bottom of the screen): choose what the remote's app buttons do, like Prime Video or Netflix. By default they work normally.
 - **Shortcuts** (scroll down): settings, all apps, screen dimmer, and **Setup & Undo**.
 
+## Phone Remote (see and control the TV from your phone)
+
+1. On the TV: **Shortcuts > Phone Remote > Turn on**. The screen shows an address and a PIN.
+2. On your phone's web browser, open that address and enter the PIN. You get the live TV screen: tap it to click, drag to scroll, press and hold for a long press. There's also an on-screen remote (arrows, OK, Back, Home, play/pause) and a box for typing into search fields.
+3. **From anywhere:** install the free **Tailscale** app on the TV (Amazon Appstore) and on your phone, and sign in to the same account on both. Then use the TV's Tailscale address (it starts with 100.). At home on the same Wi-Fi, no extra app is needed.
+
+Phone Remote stays on, and comes back by itself after a restart, until you turn it off. Video from Netflix, Prime Video and other protected apps shows as black on the phone; everything else mirrors normally.
+(Run Setup-Fire-TV.bat once with 2.6 or newer so the TV doesn't ask for screen-sharing permission each time.)
+
 ## Updates
 
 Home Base checks for new versions every few hours. When one is out, a green **Update to x.x** button appears at the bottom of the screen. Press it and choose **Update**. It replaces the installed copy and keeps your teams, layout and Home button setup.
